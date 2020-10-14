@@ -1,6 +1,8 @@
 import praw
 
-reddit = praw.Reddit('bot1')
+reddit = praw.Reddit('bot1', user_agent="bot_test by /u/Reputation_Majestic")
+
+
 
 subreddit = reddit.subreddit("testingground4bots")
 
